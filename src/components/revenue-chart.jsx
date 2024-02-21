@@ -28,7 +28,6 @@ export default function RevenueChart() {
   return (
     <div className="w-full md:col-span-4">
       <h2 className="mb-4 text-xl md:text-2xl">Recent Revenue</h2>
-
       <div className="rounded-xl bg-gray-50 p-4">
         <div className=" mt-0 flex   rounded-md bg-white ">
           <div
@@ -39,7 +38,6 @@ export default function RevenueChart() {
               <p key={label}>{label}</p>
             ))}
           </div>
-
           <div className="flex items-end justify-between w-full mx-4">
             {revenue.map((month) => (
               <div
